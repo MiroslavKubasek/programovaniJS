@@ -5,9 +5,6 @@
 * CodeSanbox*
 * Git, GitHub*
 
---
-### Odkazy, zdroje
-* [Kurzy pro Visual Studio | JavaScript a TypeScript](https://docs.microsoft.com/cs-cz/visualstudio/javascript/?view=vs-2022) **Microsoft**
 
 ---
 ### Prohlížeč Chrome
