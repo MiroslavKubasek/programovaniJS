@@ -18,10 +18,10 @@
 			<div class="slides">
 
 <section data-markdown>
-# JavaScript
-### Algoritmizace a programování
+# Základy programování
+![](doc/fran-typing.gif)
 </section>
-
+<!--
 <section data-markdown>
 # Obsah
 * [Proč JavaScript](#/2)
@@ -31,10 +31,11 @@
 * [Základy GITu](#/6)
 * [Pokročilý JavaScript](#/7)
 </section>
+-->
 
-<section data-markdown="doc/javascript/javascript.md" data-charset="utf-8"  data-separator="^\n\n\n" data-separator-vertical="^\n\n"></section>
+<section data-markdown="doc/javascript/javascript.md" data-charset="utf-8"  data-separator="^---" data-separator-vertical="^--"></section>
 
-<section data-markdown="doc/nastaveni/code.md" data-charset="utf-8"  data-separator="^\n\n\n" data-separator-vertical="^\n\n"></section>
+<section data-markdown="doc/nastaveni/code.md" data-charset="utf-8"  data-separator="^---" data-separator-vertical="^--"></section>
 
 				<section data-markdown>
 					<textarea data-template>
@@ -61,6 +62,11 @@ c(3);
 		<script src="revealjs/plugin/notes/notes.js"></script>
 		<script src="revealjs/plugin/markdown/markdown.js"></script>
 		<script src="revealjs/plugin/highlight/highlight.js"></script>
+
+		<script src="revealjs/plugin/search/search.js"></script>
+		<script src="revealjs/plugin/math/math.js"></script>
+		<script src="revealjs/plugin/zoom/zoom.js"></script>
+		<script src="revealjs-menu/menu.js"></script>
 		<script>
 			// More info about initialization & config:
 			// - https://revealjs.com/initialization/
@@ -69,9 +75,17 @@ c(3);
 				hash: true,
 				history: true,
 				transition: 'convex',
-
+				controls: true,
+				progress: true,
+				center: true,
 				// Learn about plugins: https://revealjs.com/plugins/
-				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+
+				menu: {
+					titleSelector: 'h1, h2',
+					hideMissingTitles: true,
+				},
+
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes, RevealSearch, RevealMath, RevealZoom, RevealMenu ]
 			});
 		</script>
 	</body>
