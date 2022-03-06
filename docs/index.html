@@ -9,6 +9,7 @@
 		<link rel="stylesheet" href="revealjs/dist/reset.css">
 		<link rel="stylesheet" href="revealjs/dist/reveal.css">
 		<link rel="stylesheet" href="revealjs/dist/theme/black.css">
+		<link rel="stylesheet" href="RevealEditor/style.css">
 		
 		<!-- Theme used for syntax highlighted code -->
 		<link rel="stylesheet" href="revealjs/plugin/highlight/monokai.css">
@@ -48,10 +49,20 @@
 			  color: #fff;
 			  padding: 20px;
 			}
+
+			.btn {
+				color: white;
+				font-size: 150%;
+				position: relative;
+				top: 25px;
+				left: 25px;
+				z-index: 9999;
+			}
 			
 			</style>
 	</head>
 	<body>
+		<a class="btn"><i class="fa fa-code" aria-hidden="true"></i></a>
 		<div class="reveal">
 			<div class="slides">
 
@@ -85,18 +96,19 @@ A paragraph with some text and a [link](http://hakim.se).
 ---
 ## Slide 3
 
-```js [1-2|3|4]
-let a = 1;
-let b = 2;
-let c = x => 1 + 2 + x;
-c(3);
-```
+<pre><code class="hljs js" data-trim>
+	function multiply(a, b) {
+		return a * b;
+	}	
+	console.log(multiply(4, 5));
+</code></pre>
+
 					</textarea>
 				  </section>
 				<section>Slide 2</section>
 			</div>
 		</div>
-
+		
 		<script src="revealjs/dist/reveal.js"></script>
 		<script src="revealjs/plugin/notes/notes.js"></script>
 		<script src="revealjs/plugin/markdown/markdown.js"></script>
@@ -106,6 +118,11 @@ c(3);
 		<script src="revealjs/plugin/math/math.js"></script>
 		<script src="revealjs/plugin/zoom/zoom.js"></script>
 		<script src="revealjs-menu/menu.js"></script>
+
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script> 
+		<script src="ace-builds/src-noconflict/ace.js"></script>
+		<script src="RevealEditor/revealeditor.js"></script>
+
 		<script>
 			// More info about initialization & config:
 			// - https://revealjs.com/initialization/
@@ -127,6 +144,13 @@ c(3);
 				},
 
 				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes, RevealSearch, RevealMath, RevealZoom, RevealMenu ]
+			});
+			$(".btn").RevealEditor({
+				aceTheme: "ace/theme/xcode",
+				javascript: true,
+				html: false,
+				css: false,
+				fontSize: 24
 			});
 		</script>
 	</body>
