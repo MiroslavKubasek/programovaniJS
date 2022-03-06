@@ -8,3 +8,6 @@ git submodule update --init --recursive
 
 git submodule add https://github.com/denehyg/reveal.js-menu revealjs-menu
 git submodule update --init --recursive
+
+Reveal online editor
+https://patarapolw.github.io/reveal-editor/

@@ -26,3 +26,4 @@ Při front-endovém použití se kód JavaScriptu čte, interpretuje a spouští
 * [Proč je JavaScript nejžádanější technologií 2021?](https://www.itnetwork.cz/blog/proc-je-javascript-nejzadanejsi-technologii-2021)
 * [Proč by se žáci neměli učit programovat nebo vytvářet webové stránky](https://clanky.rvp.cz/clanek/k/informatika/19011/PROC-BY-SE-ZACI-NEMELI-UCIT-PROGRAMOVAT-NEBO--VYTVARET-WEBOVE-STRANKY.html)
 * [The State of Developer Ecosystem 2021](https://www.jetbrains.com/lp/devecosystem-2021/)
+* [Best JavaScript Alternatives for Web Developers in 2021](https://www.codemotion.com/magazine/frontend/javascript/javascript-alternatives/)

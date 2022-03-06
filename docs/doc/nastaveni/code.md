@@ -13,6 +13,7 @@
 * Nemusíme řešit rozdíly mezi jednotlivými prohlížeči
 * Google Chrome je dostupný pro všechny operační systémy
 * Ke stažení na https://www.google.com/chrome
+![](https://media.threatpost.com/wp-content/uploads/sites/103/2020/11/03120131/Google-Chrome-Browser.jpg)
 
 --
 ### Ladění kódu v prohlížečích
@@ -21,7 +22,7 @@
 [Vývojářské nástroje v prohlížečích (CZ)](https://help.wedos.cz/navody/poradna/vyvojarske-nastroje-v-prohlizecich/) 
 
 ---
-### Visual Studio Code
+## Visual Studio Code
 * [Jak nainstalovat Visual Studio Code (CZ)](https://studuj.digital/2020/07/20/jak-nainstalovat-visual-studio-2/)
 * https://code.visualstudio.com/download
 
@@ -31,18 +32,29 @@ VS Code je v současné době jedním z nejpoužívanějších programátorskýc
 
 ---
 ### Node.js (nvm - správce instalací)
-* [Install NodeJS on Windows](https://docs.microsoft.com/en-us/windows/dev-environment/javascript/nodejs-on-windows)
+* [Proč k vývoji webových aplikací použít technologii NodeJS?](https://www.rascasone.com/cs/blog/node-js-architektura-moduly-npm)
+![](https://miro.medium.com/max/1400/1*t8sKOZ9vdK6VWhxa5bTThg.jpeg)
 
-```
-nvm install latest # instalace poslední stabilní verze node.js
-nvm list available # seznam dostupných verzí node.js
-nvm ls # seznam nainstalovaných verzí node.js
-use 16.14.0 # použití konkrétní verze
-```
+--
+### NVM - instalace
+* [Install NodeJS on Windows](https://docs.microsoft.com/en-us/windows/dev-environment/javascript/nodejs-on-windows)
+* [Git Node Version Manager](https://github.com/nvm-sh/nvm)
+* [Git NVM for Windows](https://github.com/coreybutler/nvm-windows)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/uOnLOoajvBA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 Note:
 NVM - Node Version Manager je nástroj, který umožňuje programátorům hladce přepínat mezi různými verzemi Node. Každou verzi můžete nainstalovat pomocí jediného příkazu a nastavit výchozí pomocí rozhraní příkazového řádku.
+
+--
+### Základní příkazy NVM
+```bash
+# instalace poslední stabilní verze node.js
+nvm install latest
+nvm list available # seznam dostupných verzí node.js
+nvm ls # seznam nainstalovaných verzí node.js
+use 16.14.0 # použití konkrétní verze
+```
+* [NVM — The Father of Nodes](https://medium.com/bright-days/nvm-the-father-of-nodes-30df3b8d673b) - jak pracovat s více verzemi node.js
 
 ---
 ### GIT - systém pro verzování souborů
@@ -53,19 +65,27 @@ NVM - Node Version Manager je nástroj, který umožňuje programátorům hladce
 
 --
 ### GIT - základní příkazy
+```bash
+# nastavení uživatele (pouze jednou po instalaci Gitu)
+git config --global user.email "email@example.com"
+git config user.email "email@example.com" # jen pro repozitář
 ```
-git config --global user.email "email@example.com" # nastavení uživatele pro celý
-git config user.email "email@example.com" # nastavení uživatele jen pro daný repozitář
-```
-```
+```bash
 cd muj_projekt # inicializace projektu
 git init
 ```
-```
+```bash
 git add . # přidání souborů projektu
 git commit -a -m "prvni commit projektu"
 ```
-```
+```bash
 git log # záznamy repozitáře
 git status # stav repozitáře
 ```
+```bash
+# nahraje všechny větve do vzdáleného repozitáře
+git push --all
+```
+---
+## Online pískoviště
+* [7 of the Best Code Playgrounds & CodePen Alternatives](https://www.sitepoint.com/code-playgrounds/)
