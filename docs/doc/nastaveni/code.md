@@ -31,7 +31,7 @@ Note: Visual Studio Code je textový editor specializovaný na psaní programů 
 VS Code je v současné době jedním z nejpoužívanějších programátorských editorů a mnoho profesionálů jej používá při své práci každý den.
 
 ---
-### Node.js (nvm - správce instalací)
+## Node.js (nvm - správce instalací)
 * [Proč k vývoji webových aplikací použít technologii NodeJS?](https://www.rascasone.com/cs/blog/node-js-architektura-moduly-npm)
 ![](https://miro.medium.com/max/1400/1*t8sKOZ9vdK6VWhxa5bTThg.jpeg)
 
@@ -54,6 +54,7 @@ nvm list available # seznam dostupných verzí node.js
 nvm ls # seznam nainstalovaných verzí node.js
 use 16.14.0 # použití konkrétní verze
 ```
+* [Node Version Manager](https://pepa.holla.cz/2015/09/23/node-version-manager/) - český stručný návod
 * [NVM — The Father of Nodes](https://medium.com/bright-days/nvm-the-father-of-nodes-30df3b8d673b) - jak pracovat s více verzemi node.js
 
 ---
