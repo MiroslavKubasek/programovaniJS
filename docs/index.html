@@ -53,20 +53,30 @@
 			.btn {
 				color: white;
 				font-size: 150%;
-				position: relative;
+				position: absolute;
 				top: 25px;
 				left: 25px;
-				z-index: 9999;
+				z-index: 100;
+			}
+
+			.reveal h1,
+			.reveal h2,
+			.reveal h3,
+			.reveal h4,
+			.reveal h5,
+			.reveal h6 {
+				text-transform: none;
 			}
 			
 			</style>
 	</head>
 	<body>
 		<a class="btn"><i class="fa fa-code" aria-hidden="true"></i></a>
-		<div class="reveal">
-			<div class="slides">
 
-<section data-markdown>
+		<div class="reveal">
+			<div class="slides" >
+
+<section data-markdown data-background-image="images/dark-bg.jpg">
 # Základy programování
 ![](doc/fran-typing.gif)
 
@@ -83,18 +93,15 @@ BI3011
 * [Pokročilý JavaScript](#/7)
 </section>
 -->
-<section data-markdown="doc/ukoly.md" data-charset="utf-8"  data-separator="^---" data-separator-vertical="^--"></section>
-<section data-markdown="doc/javascript/javascript.md" data-charset="utf-8"  data-separator="^---" data-separator-vertical="^--"></section>
-<section data-markdown="doc/nastaveni/code.md" data-charset="utf-8"  data-separator="^---" data-separator-vertical="^--"></section>
+<section data-markdown="doc/ukoly.md" data-charset="utf-8"  data-separator="^---" data-separator-vertical="^--" data-background-image="images/dark-bg.jpg"></section>
+<section data-markdown="doc/javascript/javascript.md" data-charset="utf-8"  data-separator="^---" data-separator-vertical="^--" data-background-image="images/dark-bg.jpg"></section>
+<section data-markdown="doc/nastaveni/code.md" data-charset="utf-8"  data-separator="^---" data-separator-vertical="^--" data-background-image="images/dark-bg.jpg"></section>
+<section data-markdown="doc/js01.md" data-charset="utf-8"  data-separator="^---" data-separator-vertical="^--" data-background-image="images/dark-bg.jpg"></section>
 
-				<section data-markdown>
+<!--
+				<section data-markdown data-separator="^---" data-separator-vertical="^--">
 					<textarea data-template>
-## Slide 1
-A paragraph with some text and a [link](http://hakim.se).
----
-## Slide 2
----
-## Slide 3
+## Playground
 
 <pre><code class="hljs js" data-trim>
 	function multiply(a, b) {
@@ -103,9 +110,12 @@ A paragraph with some text and a [link](http://hakim.se).
 	console.log(multiply(4, 5));
 </code></pre>
 
+
+
 					</textarea>
 				  </section>
-				<section>Slide 2</section>
+-->
+				  
 			</div>
 		</div>
 		
@@ -137,14 +147,14 @@ A paragraph with some text and a [link](http://hakim.se).
 				transition: 'convex',
 				controls: true,
 				progress: true,
-				center: true,
+				center: false,
 				slideNumber: true,
 				// Learn about plugins: https://revealjs.com/plugins/
 
 				menu: {
 					titleSelector: 'h1, h2',
-					hideMissingTitles: true,
-					openSlideNumber: true
+					hideMissingTitles: true
+					// openSlideNumber: true
 				},
 
 				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes, RevealSearch, RevealMath, RevealZoom, RevealMenu ]

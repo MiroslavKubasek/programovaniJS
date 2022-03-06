@@ -147,3 +147,31 @@ On-line programovací nástroje, bez nutnosti instalace, vhodné pro rychlé pro
 ### CodeSandbox
 An Introduction to CodeSandbox
 <iframe width="560" height="315" data-src="https://www.youtube.com/embed/mq1MrtC5R_4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+---
+## Klávesnice a terminál
+<div class="block">
+Pro všechny programátory je důležité umět psát na klávesnici speciální znaky a ovládat práci s terminálem. Visual Studio Code má terminál zabudovaný přímo v sobě. Spustíte jej tak, že ve VS Code v horním menu zvolíte <em>Terminal → New Terminal</em>
+</div>
+
+![](https://kodim.cz/czechitas/daweb/priprava/klavesnice-terminal/assets/vscode-term.png)
+
+--
+### Shell příkazy
+* Ve Windows používat místo PowerShell shell s názvem **cmd**
+
+```bash
+# výpis aktuálního adresáře
+$ dir # ve Windows
+$ ls # na Linuxu a MacOS
+```
+
+```bash
+# navigace mezi složkami
+$ cd adresar
+$ cd ..
+```
+
+<div class="block">Občas jsou názvy složek dlouhé a nechce se nám je celé vypisovat. Zkuste při použití příkazu <strong>cd</strong> napsat jen prvních pár písmenek z názvu složky a stiskněte klávesu <strong>Tab</strong>. Shell by měl sám doplnit zbytek názvu.</div>
+
+* [Základy práce v Shellu](https://www.websupport.cz/podpora/kb/zaklady-prace-se-soubory-a-slozkami-v-linuxovem-prikazovem-radku/)
