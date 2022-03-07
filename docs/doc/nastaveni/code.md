@@ -104,7 +104,7 @@ v16.14.0
 * [Jak na Git - seriál](https://www.kutac.cz/pocitace-a-internety/jak-na-git-dil-0-co-proc-jak)
 * https://git-scm.com/downloads
 
-<iframe width="560" height="315" data-src="https://www.youtube.com/embed/_cECfGAU-4Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="660" height="415" data-src="https://www.youtube.com/embed/_cECfGAU-4Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 --
 ### GIT - základní příkazy
@@ -172,3 +172,7 @@ $ cd ..
 <div class="block">Občas jsou názvy složek dlouhé a nechce se nám je celé vypisovat. Zkuste při použití příkazu <strong>cd</strong> napsat jen prvních pár písmenek z názvu složky a stiskněte klávesu <strong>Tab</strong>. Shell by měl sám doplnit zbytek názvu.</div>
 
 * [Základy práce v Shellu](https://www.websupport.cz/podpora/kb/zaklady-prace-se-soubory-a-slozkami-v-linuxovem-prikazovem-radku/)
+
+--
+### Základy práce v terminálu
+<iframe width="860" height="515" data-src="https://www.youtube.com/embed/0ILlC_MQwVs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
