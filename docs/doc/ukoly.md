@@ -1,9 +1,7 @@
 # Základy programování
 ![](doc/fran-typing.gif)
 
-BI3011
 https://js.kubasek.eu
-
 --
 ### Bi3011 - Algoritmizace a programování
 jaro 2022
