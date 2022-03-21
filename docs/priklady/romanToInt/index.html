@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Převod římské číslice na Integer</title>
+    <meta charset="UTF-8" />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+      integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/gh/google/code-prettify@master/loader/run_prettify.js"></script>
+    <link rel="stylesheet" href="../sons-of-obsidian.css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <h1>Převod římské číslice na Integer</h1>
+    <pre class="prettyprint lang-js linenums">
+/**
+* @param {string} s
+* @return {number}
+*/
+function romanToInt(s) {
+  const symbols = {
+    I: 1,
+    V: 5,
+    X: 10,
+    L: 50,
+    C: 100,
+    D: 500,
+    M: 1000
+  };
+  let value = 0;
+  for (let i = 0; i < s.length; i += 1) {
+    symbols[s[i]] < symbols[s[i + 1]]
+      ? (value -= symbols[s[i]])
+      : (value += symbols[s[i]]);
+  }
+  return value;
+}</pre>
+    <input id="in" value="MCMXCIV" />
+    <input  id="out" readonly></input>
+    <script src="romanToInt.js"></script>
+  </body>
+</html>
