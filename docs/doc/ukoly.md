@@ -18,6 +18,34 @@ miroslav.kubasek@gmail.com
 
 --
 
+## 4. dubna 2022
+Základní práce s polem - [pracovní dokument](https://docs.google.com/document/d/e/2PACX-1vQ7guutCT8Lp2-A9iDsdql7buTfs6ZW9D4qM513W1D5TyVcRVCZvrNiPvmeRYYOhbvk7yOyxQoqau6D/pub)
+<br /><br />
+
+## Naprogramujte řadící algoritmy
+* Selection sort
+* Insertion sort
+* Bubble sort
+
+[popis algoritmů a jejich vývojové diagramy](https://docs.google.com/document/d/e/2PACX-1vS_g9FjN6FsLsSjgMve0d9Y_G123ue7tQiNMPNTupIlolC0yCsr5Dz4HMLKhX0qLf3NLzAJgAArQUe2/pub)
+
+--
+### Vizualizace řadících algoritmů
+
+<div class='left'>
+Selection sort
+<iframe width="560" height="215" data-src="https://www.youtube.com/embed/g-PGLbMth_g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+Insertion sort
+<iframe width="560" height="215" data-src="https://www.youtube.com/embed/JU767SDMDvA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+<div class='right'>
+Bubble sort
+<iframe width="560" height="215" data-src="https://www.youtube.com/embed/xli_FI7CuzA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+--
+
 ## 21. března 2022
 * Regulární výrazy - [pracovní dokument](https://docs.google.com/document/d/e/2PACX-1vTsKnDKAkU3tQD7pIhX1z5-lf0sCCgdsJ3G1sha8W6hV5IJVl82-W8DM3XJl8UZQ08CZ4iiw_GjYp-c/pub) - 
 [tutorial](https://regexone.com/)
@@ -31,7 +59,7 @@ miroslav.kubasek@gmail.com
 --
 ### Úkol: Hammingova vzdálenost
 
-Algoritmus vypočte nejmenší počet pozic, na kterých se řetězce stejné délky liší, viz. [wikipedie](https://cs.wikipedia.org/wiki/Hammingova_vzd%C3%A1lenost)
+Algoritmus vypočte nejmenší počet pozic, na kterých se řetězce stejné délky liší, viz. [wikipedie](https://cs.wikipedia.org/wiki/Hammingova_vzd%C3%A1lenost) - [řešení](./priklady/hammingDistance)
 
 
 * Vstup: a = "karolin", b = "kathrin"
@@ -63,7 +91,11 @@ Algoritmus zjistí, jestli zadané slovo je tzv. "palindrom", viz. [wikipedie](h
  * @return {boolean}
  */
 function isPalindrome(s) {
-    
+    s = s.toLowerCase().replace(/[^a-z0-9]/gi,'');
+    for (let i = 0, j = s.length - 1; i <= j; i++, j--) {
+        if (s.charAt(i) !== s.charAt(j)) return false;
+    }
+    return true;
 };
 ```
 
@@ -146,6 +178,8 @@ Napište funkci, která zjistí, jestli jsou v textu správně použité závork
 * otevírací závorka musí být uzavřena tou samou uzavírající závorkou
 * otevřené závorky musí být uzavírány ve správném pořadí
 
+[řešení](./priklady/isValid)
+
 --
 
 * Vstup: s = "(as)[f]s{tr}"
@@ -166,7 +200,10 @@ var isValid = function(s) {
 ```
 
 --
-## Úkoly z 7. března 2022
+## 7. březen 2022
+
+Úkoly
+
 * Instalace Google Chrome, seznámení s Developer Tools
 * Instalace a seznámení s Visual Studio Code
 * Instalace NVM a nastavení poslední stabilní verze Node.js
