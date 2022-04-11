@@ -18,6 +18,19 @@ miroslav.kubasek@gmail.com
 
 --
 
+## 12. dubna 2022
+Objekty, třídy - [pracovní dokument](https://docs.google.com/document/d/e/2PACX-1vQRV4mr3jGHRSUEr3kSQ54r9cdsovdEb1-jyuHaawcqA4Gd5OdZiyslbBibzoQ5pyWu5yrvzzxgC-vF/pub)
+<br />
+Scope, cykly, map, reduce, filter - [pracovní dokument](https://docs.google.com/document/d/e/2PACX-1vQ_nKt4tUx_8RYhC8RxRQ84xvVqehqvHWk7tg1dggw7GYEE4EbklgRpWE3VPd2utPp8c7JZbm45S-St/pub)
+<br /><br />
+
+# Domácí úloha
+## Naprogramujte datovou strukturu "Fronta FIFO"
+* zadání na konci dokumentu Scope, Cykly...
+
+
+--
+
 ## 4. dubna 2022
 Základní práce s polem - [pracovní dokument](https://docs.google.com/document/d/e/2PACX-1vQ7guutCT8Lp2-A9iDsdql7buTfs6ZW9D4qM513W1D5TyVcRVCZvrNiPvmeRYYOhbvk7yOyxQoqau6D/pub)
 <br /><br />
