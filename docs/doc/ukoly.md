@@ -24,10 +24,11 @@ Objekty, třídy - [pracovní dokument](https://docs.google.com/document/d/e/2PA
 Scope, cykly, map, reduce, filter - [pracovní dokument](https://docs.google.com/document/d/e/2PACX-1vQ_nKt4tUx_8RYhC8RxRQ84xvVqehqvHWk7tg1dggw7GYEE4EbklgRpWE3VPd2utPp8c7JZbm45S-St/pub)
 <br /><br />
 
-# Domácí úloha
-## Naprogramujte datovou strukturu "Fronta FIFO"
-* zadání na konci dokumentu Scope, Cykly...
-
+## Domácí úloha č. 1
+(odevzdat do pondělí 25.4.2022)
+#### Naprogramujte datovou strukturu "Fronta FIFO"
+* [zadání, šablona JS](https://docs.google.com/document/d/e/2PACX-1vRW6e0_p_kHDqG0WDFZ8VPAUgVssUbsSjK5vrn9zNwKGRbD-6G3CHE71doz8zi_LjcYuw4Y6luWHQ_d/pub)
+* [formulář pro odevzdání úlohy](https://forms.office.com/r/N1H77ix33z)
 
 --
 
