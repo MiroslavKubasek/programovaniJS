@@ -114,8 +114,10 @@ git config --global user.email "email@example.com"
 git config user.email "email@example.com" # jen pro repozitář
 ```
 ```bash
-cd muj_projekt # inicializace projektu
-git init
+mkdir moje_uloha
+cd moje_uloha
+git init  # inicializace projektu
+git remote add origin git@github.com:MiroslavKubasek/uloha1.git # propojime s github
 ```
 ```bash
 git add . # přidání souborů projektu
@@ -128,6 +130,7 @@ git status # stav repozitáře
 ```bash
 # nahraje všechny větve do vzdáleného repozitáře
 git push --all
+# nastaveni ssh klice na https://github.com/settings/keys
 ```
 ---
 ## Online pískoviště

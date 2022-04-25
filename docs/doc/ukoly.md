@@ -7,7 +7,7 @@ https://js.kubasek.eu
 jaro 2022
 
 * Výuka **pondělky 12:00 - 14:30** (od 14. února 2022 do 16. května 2022)
-* Výuka nebude: **28.března, 18. dubna**
+* Výuka nebude: **28.března, 18. dubna, 2. května**
 * [On-line skripta na portal.matematickabiologie.cz](https://portal.matematickabiologie.cz/index.php?pg=zaklady-informatiky-pro-biology--algoritmizace-a-programovani)
 
 **Kontakt**
@@ -15,6 +15,19 @@ jaro 2022
 miroslav.kubasek@gmail.com
 
 +420 777 176 674
+
+--
+
+## 25. dubna 2022
+
+* Web a JavaScript - [pracovní dokument](https://docs.google.com/document/d/e/2PACX-1vTNj_euGzaXy1_chjmZuUWOcDnuUnTiut3l9SKKzOPbvfORPWzHvdTC8zB_hcvqAFttCQfDetgA2R9W/pub)
+* [GIT](#/6) - správa projektu
+* Naprogramujte **Překladač Morseovy abecedy** - [zadání](https://docs.google.com/document/d/e/2PACX-1vRpmnPxkzjVjMQHTfgjiFBZ98H_H9otGoZU8MPoJO_m-KNyXhaz9Q3iH4WZwibr9MxvO2IoKyc3yu_T/pub)<br /><br />
+
+
+## Domácí úloha č. 2 (do 9.5.2022)
+* Naprogramujte statistiku hodů dvěma kostkama - [zadání](https://docs.google.com/document/d/e/2PACX-1vSHJPKwkFKbuYN1YDSnV-xWeml1HSehgk1PZJTZwm_DNUXtQqB6sFy7PUwROh9tpDt7Hv2HE7U_dHto/pub)
+* formulář pro odevzdání úlohy (git, zip, online kód) - doplním
 
 --
 
