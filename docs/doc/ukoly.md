@@ -27,7 +27,7 @@ miroslav.kubasek@gmail.com
 
 ## Domácí úloha č. 2 (do 9.5.2022)
 * Naprogramujte statistiku hodů dvěma kostkama - [zadání](https://docs.google.com/document/d/e/2PACX-1vSHJPKwkFKbuYN1YDSnV-xWeml1HSehgk1PZJTZwm_DNUXtQqB6sFy7PUwROh9tpDt7Hv2HE7U_dHto/pub)
-* formulář pro odevzdání úlohy (git, zip, online kód) - doplním
+* [formulář pro odevzdání úlohy (git, zip, online kód)](https://forms.office.com/r/p2Mg48gN2L)
 
 --
 
