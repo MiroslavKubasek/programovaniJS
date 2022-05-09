@@ -18,6 +18,13 @@ miroslav.kubasek@gmail.com
 
 --
 
+## 9. května 2022
+
+* Asynchronní programování, Destrukturalizace - [pracovní dokument](https://docs.google.com/document/d/e/2PACX-1vQJ5-rTF2JNufzOH8RY0ZQxtiOksQJdahRRm2QiMqw4NBoW0h2ZnXRasEgRdvRQFBtJn2h3qxvBwvEn/pub)
+
+
+--
+
 ## 25. dubna 2022
 
 * Web a JavaScript - [pracovní dokument](https://docs.google.com/document/d/e/2PACX-1vTNj_euGzaXy1_chjmZuUWOcDnuUnTiut3l9SKKzOPbvfORPWzHvdTC8zB_hcvqAFttCQfDetgA2R9W/pub)
