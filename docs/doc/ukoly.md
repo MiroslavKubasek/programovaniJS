@@ -25,7 +25,7 @@ miroslav.kubasek@gmail.com
 * Příklad [Flickr vyhledávání](https://jsbin.com/voxeduseke/edit?html,js,output)
 
 --
-9
+
 ## 25. dubna 2022
 
 * Web a JavaScript - [pracovní dokument](https://docs.google.com/document/d/e/2PACX-1vTNj_euGzaXy1_chjmZuUWOcDnuUnTiut3l9SKKzOPbvfORPWzHvdTC8zB_hcvqAFttCQfDetgA2R9W/pub)
